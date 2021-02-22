@@ -1,0 +1,28 @@
+# Architecture
+arch: vgg19_bn
+
+# ===== Dataset ===== #
+data: dataset/
+set: CIFAR100
+name: probmask
+
+# ===== Learning Rate Policy ======== #
+optimizer: adam
+lr: 6e-3
+lr_policy: cosine_lr
+
+# ===== Network training config ===== #
+epochs: 300
+weight_decay: 0
+batch_size: 256
+
+# ===== Sparsity =========== #
+conv_type: ProbMaskConv
+bn_type: LearnedBatchNorm
+init: kaiming_normal
+mode: fan_in
+nonlinearity: relu
+prune_rate: 0.1
+
+# ===== Hardware setup ===== #
+workers: 4
