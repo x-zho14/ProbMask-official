@@ -38,6 +38,16 @@ If you find this implementation is helpful to you, please cite:
 }
 ```
 
+```BibTeX
+@inproceedings{zhou2021effective,
+  title={Effective sparsification of neural networks with global sparsity constraint},
+  author={Zhou, Xiao and Zhang, Weizhong and Xu, Hang and Zhang, Tong},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={3599--3608},
+  year={2021}
+}
+```
+
 ## Following Work on Sparse Training
 
-Efficient Neural Network Training via Forward and Backward Propagation Sparsification(paper [https://proceedings.neurips.cc/paper/2021/file/80f2f15983422987ea30d77bb531be86-Paper.pdf], code[git@github.com:x-zho14/VRPGE-Sparse-Training.git])
+Efficient Neural Network Training via Forward and Backward Propagation Sparsification([paper] (https://proceedings.neurips.cc/paper/2021/file/80f2f15983422987ea30d77bb531be86-Paper.pdf), [code](https://github.com/x-zho14/VRPGE-Sparse-Training))
