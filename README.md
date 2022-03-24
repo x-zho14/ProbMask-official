@@ -24,3 +24,13 @@ python main.py --config configs/resnet32-cifar100-pr0.1.yaml --multigpu 0 --data
 ## Implementation
 1. The implementation of ProbMaskConv can be found at utils/conv_type.py ProbMaskConv.
 2. The implementation of Projection can be found at utils/net_utils.py, constrainScoreByWhole and solve_v_total.
+
+'''
+@inproceedings{zhou2021effective,
+  title={Effective sparsification of neural networks with global sparsity constraint},
+  author={Zhou, Xiao and Zhang, Weizhong and Xu, Hang and Zhang, Tong},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={3599--3608},
+  year={2021}
+}
+'''
