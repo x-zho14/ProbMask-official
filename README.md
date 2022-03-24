@@ -50,4 +50,4 @@ If you find this implementation is helpful to you, please cite:
 
 ## Following Work on Sparse Training
 
-Efficient Neural Network Training via Forward and Backward Propagation Sparsification([paper] (https://proceedings.neurips.cc/paper/2021/file/80f2f15983422987ea30d77bb531be86-Paper.pdf), [code](https://github.com/x-zho14/VRPGE-Sparse-Training))
+Efficient Neural Network Training via Forward and Backward Propagation Sparsification([paper](https://proceedings.neurips.cc/paper/2021/file/80f2f15983422987ea30d77bb531be86-Paper.pdf), [code](https://github.com/x-zho14/VRPGE-Sparse-Training))
